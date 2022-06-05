@@ -1,6 +1,6 @@
 ﻿using Confluent.Kafka;
 
-string topicName = "sinantok";
+string topicName = "message_stream";
 
 var config = new ConsumerConfig { GroupId = "messageConsumer", BootstrapServers = "localhost:9092", EnableAutoCommit = false };
 

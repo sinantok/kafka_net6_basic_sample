@@ -1,6 +1,6 @@
 ﻿using Confluent.Kafka;
 
-string topicName = "sinantok";
+string topicName = "message_stream";
 
 var config = new ProducerConfig() { BootstrapServers = "localhost:9092" };
 
